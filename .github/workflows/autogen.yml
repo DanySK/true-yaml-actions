@@ -1,0 +1,13 @@
+name: Generate workflows
+
+on:
+  push:
+
+jobs:
+  generate-workflows:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run locally
+        uses: 'DanySK/true-yaml-actions@master'
+        with:
+          token: ${{ secrets.WORKFLOW_TOKEN }}

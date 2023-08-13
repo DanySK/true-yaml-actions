@@ -1,0 +1,23 @@
+anchor: &anchor
+  name: Test running on ${{github.repository}}
+  run: echo Commit ${{github.sha}} seems to be working
+
+---
+
+name: Test this action
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test running on ${{github.repository}}
+        run: echo Commit ${{github.sha}} seems to be working
+      - <<: *anchor
+        run: echo Test merge keys
+      - *anchor
+  
