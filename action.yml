@@ -1,0 +1,30 @@
+name: Build and delivery a Gradle project
+description: Build and delivery a Gradle project
+branding:
+  icon: 'rotate-cw'
+  color: 'purple'
+
+runs:
+  using: composite
+  steps:
+    - runs: |
+      if [ -z "${{ github.token }}" ]; then
+        echo 'No token set'
+        exit 1
+      fi
+    - uses: actions/checkout@v3.5.3
+      with:
+        token: ${{ github.token }}
+    - uses: mikefarah/yq@v4.35.1
+      id: explode
+      with:
+        cmd: |
+          for target in .github/real-workflows; do
+            yq 'explode(.)' ".github/real-workflows/$target" > ".github/workflows/$target"
+          done
+    - runs: |
+        git config --global user.name "GitHub Actions YAML generator [bot]"
+        git config --global user.email "yaml.actions.bot@users.noreply.github.com"
+        git add .github/workflows/
+        git diff --staged --quiet || git commit -m "ci: regenerate workflows"
+        git push

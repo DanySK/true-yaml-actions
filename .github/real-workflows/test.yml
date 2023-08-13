@@ -1,0 +1,19 @@
+name: Test this action
+
+on:
+  push:
+  pull_request:
+
+_injected_opts: &anchor1
+  name: Test running on ${{github.repository}}
+
+_injected_job: &anchor2
+  <<: *anchor1
+  runs: echo Commit ${{github.sha}} seems to be working
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run locally
+        uses: ${{github.repository}}@${{github.sha}}
