@@ -1,10 +1,10 @@
 anchor: &anchor
-  name: Test running on ${{github.repository}}
+  name: Test running on ${{github.repository}} PULL REQUEST TEST
   run: echo Commit ${{github.sha}} from an anchor seems to be working
 
 ---
 
-name: Test this action
+name: Test this action on PR
 
 on:
   push:
