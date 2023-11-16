@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - master
+    paths: 
+      - ".github/real-workflows/*.yml"
 
 jobs:
   generate-workflows:
