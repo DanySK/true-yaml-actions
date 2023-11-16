@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/DanySK/true-yaml-actions/compare/1.0.1...1.0.2) (2023-11-16)
+
+
+### Documentation
+
+* pick a stable version for the action ([8c2cf40](https://github.com/DanySK/true-yaml-actions/commit/8c2cf409e6984484a374a34d05f39d4c52e40ba2))
+
 ## [1.0.1](https://github.com/DanySK/true-yaml-actions/compare/1.0.0...1.0.1) (2023-11-16)
 
 
