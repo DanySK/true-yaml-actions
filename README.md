@@ -55,7 +55,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run locally
-        uses: 'DanySK/true-yaml-actions@master'
+        uses: 'DanySK/true-yaml-actions@1.0.1' # pick the latest version maybe
         with:
           token: ${{ secrets.WORKFLOW_TOKEN }}
 
