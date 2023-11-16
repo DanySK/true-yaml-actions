@@ -47,6 +47,8 @@ name: Generate workflows
 
 on:
   push:
+    branches:
+      - master
 
 jobs:
   generate-workflows:
