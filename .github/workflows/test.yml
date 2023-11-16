@@ -10,6 +10,6 @@ jobs:
       - name: Test running on ${{github.repository}}
         run: echo Commit ${{github.sha}} seems to be working
       - name: Test running on ${{github.repository}}
-        run: echo Test merge keys
+        run: echo Commit ${{github.sha}} from a merge key seems to be working
       - name: Test running on ${{github.repository}}
-        run: echo Commit ${{github.sha}} seems to be working
+        run: echo Commit ${{github.sha}} from an anchor seems to be working
