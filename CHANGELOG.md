@@ -1,3 +1,22 @@
+## [1.0.3](https://github.com/DanySK/true-yaml-actions/compare/1.0.2...1.0.3) (2023-11-16)
+
+
+### Dependency updates
+
+* **deps:** update actions/checkout action to v4 ([6773004](https://github.com/DanySK/true-yaml-actions/commit/677300463d415147a8b9e7ac27145e7791eddceb))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.76 ([5981a00](https://github.com/DanySK/true-yaml-actions/commit/5981a003e727bb5a709fff81dac123dbc0da0242))
+
+
+### Documentation
+
+* update readme ([9fbf403](https://github.com/DanySK/true-yaml-actions/commit/9fbf40301f44e6f9b9fc4f60ba4190e3ff5bc1b8))
+
+
+### Build and continuous integration
+
+* avoid running autogen.yml on every push ([a06518f](https://github.com/DanySK/true-yaml-actions/commit/a06518fc3c9ef408fb217f6dc981a1eddf54fa58))
+* **deps:** update danysk/true-yaml-actions action to v1.0.2 ([22ad8bf](https://github.com/DanySK/true-yaml-actions/commit/22ad8bf3db8a3651fb26e3202f10e47d177f3280))
+
 ## [1.0.2](https://github.com/DanySK/true-yaml-actions/compare/1.0.1...1.0.2) (2023-11-16)
 
 
