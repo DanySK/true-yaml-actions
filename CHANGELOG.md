@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/DanySK/true-yaml-actions/compare/1.0.0...1.0.1) (2023-11-16)
+
+
+### Documentation
+
+* regenerate only when the new ci hits master ([347d539](https://github.com/DanySK/true-yaml-actions/commit/347d5398df597ab4444e9f258b1f81d1639847df))
+
 ## 1.0.0 (2023-11-16)
 
 
