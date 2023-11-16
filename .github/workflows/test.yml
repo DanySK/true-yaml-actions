@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Test running on ${{github.repository}}
         run: echo Commit ${{github.sha}} seems to be working
@@ -13,3 +13,27 @@ jobs:
         run: echo Commit ${{github.sha}} from a merge key seems to be working
       - name: Test running on ${{github.repository}}
         run: echo Commit ${{github.sha}} from an anchor seems to be working
+  release:
+    concurrency:
+      group: release-${{ github.event.number || github.ref }}
+    permissions:
+      contents: write
+      packages: write
+    needs:
+      - test
+    runs-on: ubuntu-22.04
+    if: >-
+      !github.event.repository.fork && (
+
+        github.event_name != 'pull_request'
+        || github.event.pull_request.head.repo.full_name == github.repository
+      )
+    steps:
+      - name: Install Node
+        uses: actions/setup-node@v4.0.0
+      - name: Checkout
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+      - name: Install dependencies
+        run: npm install
+      - name: Semantic Release
+        run: npx semantic-release
