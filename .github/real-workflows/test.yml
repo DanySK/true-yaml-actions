@@ -43,6 +43,8 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Semantic Release
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         run: npx semantic-release
   success:
     runs-on: ubuntu-22.04
