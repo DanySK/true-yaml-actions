@@ -1,3 +1,37 @@
+## [1.0.4](https://github.com/DanySK/true-yaml-actions/compare/1.0.3...1.0.4) (2024-02-01)
+
+
+### Dependency updates
+
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.77 ([aee7ea5](https://github.com/DanySK/true-yaml-actions/commit/aee7ea5e6cd1eb758d998114b006a3c6f401c085))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.78 ([1c3b4b1](https://github.com/DanySK/true-yaml-actions/commit/1c3b4b10e14d4e78b4ac2327a8f8d3caa40ccc0b))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.79 ([ee2c86e](https://github.com/DanySK/true-yaml-actions/commit/ee2c86e8424cc93a311c3e9d31bf56cadcef0d63))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.80 ([bd31bbe](https://github.com/DanySK/true-yaml-actions/commit/bd31bbe39be73bc5e6be253e80f947b8421724d8))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.82 ([19f1393](https://github.com/DanySK/true-yaml-actions/commit/19f13933a7bfb3a06b59e8254fa50584d76a93c3))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.83 ([c5197dd](https://github.com/DanySK/true-yaml-actions/commit/c5197dd128eaf6109f889ef3f3c3aff48f9d79ea))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.84 ([23d1d5b](https://github.com/DanySK/true-yaml-actions/commit/23d1d5b3564e47de046fbf9601b0f4ab2bc0c750))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.85 ([22d752c](https://github.com/DanySK/true-yaml-actions/commit/22d752c5f14ebccc1e44629e76d98099a0d86911))
+* **deps:** update mikefarah/yq action to v4.40.2 ([10ecfe0](https://github.com/DanySK/true-yaml-actions/commit/10ecfe012978e988ad4a6b6638e1596316497a99))
+* **deps:** update mikefarah/yq action to v4.40.3 ([b96ad52](https://github.com/DanySK/true-yaml-actions/commit/b96ad52eaad88da00a64cfe4b0e3bb42428348ea))
+* **deps:** update mikefarah/yq action to v4.40.4 ([b66d460](https://github.com/DanySK/true-yaml-actions/commit/b66d460a1e5f326a81cb58f77f3a80d593470d4b))
+* **deps:** update mikefarah/yq action to v4.40.5 ([3ced367](https://github.com/DanySK/true-yaml-actions/commit/3ced36736583b0822b6f2e82107b1a6bcaa8ca66))
+* **deps:** update node.js to 20.10 ([4dfc045](https://github.com/DanySK/true-yaml-actions/commit/4dfc0459892c50eed6280a6a4024012c84959f66))
+* **deps:** update node.js to 20.11 ([48cbe9f](https://github.com/DanySK/true-yaml-actions/commit/48cbe9f7af97c67d40851d353ef79896aa91b514))
+* **deps:** update npm to v10.2.5 ([12b168a](https://github.com/DanySK/true-yaml-actions/commit/12b168aed55844a85a3994b675ef3c35eec054d4))
+* **deps:** update npm to v10.3.0 ([881fc81](https://github.com/DanySK/true-yaml-actions/commit/881fc8173a52615b1c9575d23b975f840a1f895c))
+* **deps:** update npm to v10.4.0 ([4318f68](https://github.com/DanySK/true-yaml-actions/commit/4318f685af0799d67e107a07d9052694a45b605d))
+
+
+### Bug Fixes
+
+* assign the correct name and description to this action ([fef1d3f](https://github.com/DanySK/true-yaml-actions/commit/fef1d3f0723bd0e4b5c3005c330f9eefdbb40dd7))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/setup-node action to v4.0.1 ([e622110](https://github.com/DanySK/true-yaml-actions/commit/e622110c091b6d3ee19d979d3508cd1972c059de))
+* **deps:** update danysk/true-yaml-actions action to v1.0.3 ([0b8964b](https://github.com/DanySK/true-yaml-actions/commit/0b8964b15407c819b6b0359b6bc02cc61fa1cf33))
+
 ## [1.0.3](https://github.com/DanySK/true-yaml-actions/compare/1.0.2...1.0.3) (2023-11-16)
 
 
