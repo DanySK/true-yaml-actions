@@ -1,5 +1,5 @@
-name: Build and delivery a Gradle project
-description: Build and delivery a Gradle project
+name: True YAML Actions
+description: Explodes a YAML specification with anchors and merge keys into a format GitHub Actions understands
 branding:
   icon: 'rotate-cw'
   color: 'purple'
