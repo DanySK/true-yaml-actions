@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/DanySK/true-yaml-actions/compare/1.0.4...1.0.5) (2024-02-01)
+
+
+### Bug Fixes
+
+* change the action branding for GH marketplace ([0c8dcfa](https://github.com/DanySK/true-yaml-actions/commit/0c8dcfac5e6ce1920159385569848081e57d098a))
+
 ## [1.0.4](https://github.com/DanySK/true-yaml-actions/compare/1.0.3...1.0.4) (2024-02-01)
 
 
