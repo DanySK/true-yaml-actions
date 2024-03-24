@@ -21,7 +21,7 @@ runs:
     - uses: actions/checkout@v4.1.2
       with:
         token: ${{ inputs.token }}
-    - uses: mikefarah/yq@v4.42.1
+    - uses: mikefarah/yq@v4.43.1
       id: explode
       with:
         cmd: |
