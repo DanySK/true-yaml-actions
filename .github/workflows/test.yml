@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 jobs:
   test:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Test running on ${{github.repository}}
         run: echo Commit ${{github.sha}} seems to be working
@@ -21,7 +21,7 @@ jobs:
       packages: write
     needs:
       - test
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     if: >-
       !github.event.repository.fork && (
 
@@ -42,7 +42,7 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         run: npx semantic-release
   success:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     needs:
       - test
       - release
