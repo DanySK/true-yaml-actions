@@ -18,7 +18,7 @@ runs:
           echo 'No token set'
           exit 1
         fi
-    - uses: actions/checkout@v5.0.0
+    - uses: actions/checkout@v5.0.1
       with:
         token: ${{ inputs.token }}
     - uses: mikefarah/yq@v4.48.2
